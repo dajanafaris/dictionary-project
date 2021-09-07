@@ -18,7 +18,7 @@ function App() {
           >
             {" "}
             Open source code
-          </a>
+          </a>{" "}
           by
           <a
             href="https://www.linkedin.com/in/dajana-742673171/"
