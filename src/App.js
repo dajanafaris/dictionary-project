@@ -6,10 +6,30 @@ function App() {
       <h1> Dictonary App</h1>
       <header className="App-header"></header>
       <main>
-        <Dictionary defaultKeyword=" " />
+        <Dictionary defaultKeyword="nebula" />
       </main>
       <footer className="App-footer">
-        <small>Coded by Dajana Faris</small>
+        <small>
+          <a
+            href="https://github.com/dajanafaris/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+            className="codeLink"
+          >
+            {" "}
+            Open source code
+          </a>
+          by
+          <a
+            href="https://www.linkedin.com/in/dajana-742673171/"
+            target="_blank"
+            rel="noreferrer"
+            className="codeLink"
+          >
+            {" "}
+            Dajana Faris
+          </a>
+        </small>
       </footer>
     </div>
   );
