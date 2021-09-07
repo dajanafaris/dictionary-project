@@ -6,7 +6,7 @@ function App() {
       <h1> Dictonary App</h1>
       <header className="App-header"></header>
       <main>
-        <Dictionary defaultKeyword="sun" />
+        <Dictionary defaultKeyword=" " />
       </main>
       <footer className="App-footer">
         <small>Coded by Dajana Faris</small>
